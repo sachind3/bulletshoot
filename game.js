@@ -61,7 +61,6 @@ document.addEventListener('DOMContentLoaded', () => {
     function generateBullets(){
         bulletColor = randColor;
         let bulletBottom = 70
-        function createBullet
         const bullet = document.createElement('div')
         bullet.classList.add('bullet')
         bullet.style.backgroundColor = bulletColor
